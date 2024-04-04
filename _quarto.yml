@@ -1,13 +1,14 @@
-project:
+  project:
   type: website
 
 website:
   title: "website"
-  navbar:
-    left:
+  sidebar:
+    style: "docked"
+    contents:
       - href: index.qmd
         text: Home
-      - about.qmd
+      - href: about.qmd
 
 format:
   html:
